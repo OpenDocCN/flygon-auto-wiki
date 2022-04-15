@@ -4,7 +4,7 @@
 > 
 > 利欲驱人万火牛，江湖浪迹一沙鸥。——陆游《秋思》
 
-* [在线阅读](https://pyauto.apachecn.org)
+* [在线阅读](https://pyaw.apachecn.org)
 * [在线阅读（Gitee）](https://apachecn.gitee.io/doc-template/)
 * [ApacheCN 学习资源](http://docs.apachecn.org/)
 
