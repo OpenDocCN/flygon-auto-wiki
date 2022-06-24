@@ -1,4 +1,4 @@
-# ApacheCN Python 自动化知识库
+# ApacheCN 自动化知识库
 
 > 协议：[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 > 
@@ -20,7 +20,7 @@
 
 ### 其他
 
-*   在我们的 [apachecn/python-auto-wiki](https://github.com/apachecn/python-auto-wiki) github 上提 issue.
+*   在我们的 [apachecn/apachecn-auto-wiki](https://github.com/apachecn/apachecn-auto-wiki) github 上提 issue.
 *   发邮件到 Email: `apachecn@163.com`.
 *   在我们的 [组织学习交流群](https://www.apachecn.org/#/docs/join) 中联系群主/管理员即可.
 
@@ -29,24 +29,24 @@
 ### Docker
 
 ```
-docker pull apachecn0/python-auto-wiki
-docker run -tid -p <port>:80 apachecn0/python-auto-wiki
+docker pull apachecn0/apachecn-auto-wiki
+docker run -tid -p <port>:80 apachecn0/apachecn-auto-wiki
 # 访问 http://localhost:{port} 查看文档
 ```
 
 ### PYPI
 
 ```
-pip install python-auto-wiki
-python-auto-wiki <port>
+pip install apachecn-auto-wiki
+apachecn-auto-wiki <port>
 # 访问 http://localhost:{port} 查看文档
 ```
 
 ### NPM
 
 ```
-npm install -g python-auto-wiki
-python-auto-wiki <port>
+npm install -g apachecn-auto-wiki
+apachecn-auto-wiki <port>
 # 访问 http://localhost:{port} 查看文档
 ```
 
