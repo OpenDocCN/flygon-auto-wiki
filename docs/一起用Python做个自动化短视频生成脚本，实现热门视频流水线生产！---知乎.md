@@ -85,11 +85,11 @@ for i in range(2):
 
 至此我们就可以根据关键字将图片爬取下来，并将图片根据**数字顺序命名**，如下图所示。
 
-<figure data-size="normal">
 
-<noscript><img src="img/8dfc245464d517721f3657d892f7eab2.png" data-caption="" data-size="normal" data-rawwidth="1080" data-rawheight="545" class="origin_image zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-82c2f938b814034867b3e3df1f42bd01_r.jpg" data-original-src="https://pic2.zhimg.com/v2-82c2f938b814034867b3e3df1f42bd01_b.jpg"/></noscript>
 
-</figure>
+![](img/8dfc245464d517721f3657d892f7eab2.png)
+
+
 
 ### **2\. 图片统一格式大小**
 
@@ -114,11 +114,11 @@ def resize_image(image_name):
             img.save(os.path.join(output_dir, file)) 
 ```
 
-<figure data-size="normal">
 
-<noscript><img src="img/9b70499691bed795bfc9e81e7537577f.png" data-caption="" data-size="normal" data-rawwidth="1080" data-rawheight="581" class="origin_image zh-lightbox-thumb" data-original="https://pic4.zhimg.com/v2-7539375e6c9f2c0103e4a51c109c8b77_r.jpg" data-original-src="https://pic4.zhimg.com/v2-7539375e6c9f2c0103e4a51c109c8b77_b.jpg"/></noscript>
 
-</figure>
+![](img/9b70499691bed795bfc9e81e7537577f.png)
+
+
 
 ### **3\. 视频合成**
 
@@ -166,11 +166,11 @@ t = get_video_duration('./你的名字.mp4')
 
 今天我们就使用这款自制的音乐播放器来下载我们需要的音乐。例如我们就以《错位时空》作为背景音乐，我们可以先通过这款音乐播放器将这首歌下载到本地。如下图所示。
 
-<figure data-size="normal">
 
-<noscript><img src="img/c841b0cb49ca80a3473efcde81829c6c.png" data-caption="" data-size="normal" data-rawwidth="1008" data-rawheight="711" class="origin_image zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-59fca2eaed117fc8b4a0e11337572109_r.jpg" data-original-src="https://pic2.zhimg.com/v2-59fca2eaed117fc8b4a0e11337572109_b.jpg"/></noscript>
 
-</figure>
+![](img/c841b0cb49ca80a3473efcde81829c6c.png)
+
+
 
 音乐下载完毕，接下来就是音乐截取，这里我们提供了两种方式。一种是截取歌曲高潮部分，另一种是自己选取歌曲截取区间。
 
@@ -191,11 +191,11 @@ chorus_start_sec = find_and_output_chorus("./错位时空 - 艾辰.mp3", "./错�
 
 如下图，我们知道了视频的时长是26s，然后截取背景音乐，自动获取的高潮部分是从2分32秒开始，时长26s。至此我们就可以把当前歌曲的高潮部分截取出来进行最后的视频和音乐合并了。
 
-<figure data-size="normal">
 
-<noscript><img src="img/8fc5363fc870be505f43f84e761e3d93.png" data-caption="" data-size="normal" data-rawwidth="498" data-rawheight="74" class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-5af59f8c37dee9dcc75693ae1b3ed944_r.jpg" data-original-src="https://pic1.zhimg.com/v2-5af59f8c37dee9dcc75693ae1b3ed944_b.jpg"/></noscript>
 
-</figure>
+![](img/8fc5363fc870be505f43f84e761e3d93.png)
+
+
 
 **自定义截取歌曲区间：**
 
@@ -207,11 +207,11 @@ audio_background = mpy.AudioFileClip('./错位时空 - 艾辰.mp3').subclip(20, 
 audio_background.write_audiofile('bk.mp3')
 ```
 
-<figure data-size="normal">
 
-<noscript><img src="img/a216602a45000d1ffc1e4f45e62e1245.png" data-caption="" data-size="normal" data-rawwidth="718" data-rawheight="106" class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-466eaa0581609e74b82b78cce9528f64_r.jpg" data-original-src="https://pic1.zhimg.com/v2-466eaa0581609e74b82b78cce9528f64_b.jpg"/></noscript>
 
-</figure>
+![](img/a216602a45000d1ffc1e4f45e62e1245.png)
+
+
 
 ### **5\. 视频和背景音乐合并**
 

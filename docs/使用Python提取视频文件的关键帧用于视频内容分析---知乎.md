@@ -25,11 +25,11 @@ date: 2022-05-04 19:45:25
 
 该研究提取了视频中的信息帧（即关键帧，也叫I帧）用于内容编码，见下图：
 
-<figure data-size="normal">
 
-<noscript><img src="img/09dd23cb8ca63639190af50561f6ec43.png" data-caption="" data-size="normal" data-rawwidth="704" data-rawheight="729" class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-a743f1dbfbc0fe6688b8b477a98bd8d0_r.jpg" data-original-src="https://pic1.zhimg.com/v2-a743f1dbfbc0fe6688b8b477a98bd8d0_b.jpg"/></noscript>
 
-</figure>
+![](img/09dd23cb8ca63639190af50561f6ec43.png)
+
+
 
 2\. 《[快手短视频中农村女性的“自我书写](https://link.zhihu.com/?target=https%3A//www.gooseeker.com/doc/article-687-1.html)》
 
@@ -105,11 +105,11 @@ GooSeeker每年都要支持各个大学的毕业生采集数据完成他们的�
 
 GooSeeker推出多个微博采集工具，匹配高校师生从不同角度、不同传播路径、不同内容呈现采集数据的需求。同样也适用于公共领域和民间舆论场分析，市场和商业环境分析等。[GooSeeker文本分词和情感分析软件](https://link.zhihu.com/?target=https%3A//www.gooseeker.com/res/softdetail_13.html)可以对采集下来的内容进行自然语言处理，生成词性、词频统计表情感分析结果表，共词矩阵表，关键词抽取结果表等等。
 
-<figure data-size="normal">
 
-<noscript><img src="img/cbed31c3f5719174ce5deadec52bed86.png" data-caption="" data-size="normal" data-rawwidth="1635" data-rawheight="1002" class="origin_image zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-791e7ff8c1adc43cfa5f02a691ad5b49_r.jpg" data-original-src="https://pic2.zhimg.com/v2-791e7ff8c1adc43cfa5f02a691ad5b49_b.jpg"/></noscript>
 
-</figure>
+![](img/cbed31c3f5719174ce5deadec52bed86.png)
+
+
 
 Jupyter Notebook这类交互式数据探索和分析工具代表了一股不容忽视的潮流，借助于Python编程的强大力量，数据加工的能力和灵活性已经有相当明显的优势，尤其是程序代码和文字描述可以混合编排，数据探索和数据描述做完了，一篇研究报告也基本上成型了。
 
@@ -129,21 +129,21 @@ Jupyter Notebook这类交互式数据探索和分析工具代表了一股不容�
 
 1.  把通过爬虫软件下载或者手工下载的短视频文件，复制到本notebook子目录data/raw目录下
 
-<figure data-size="normal">
 
-<noscript><img src="img/07b2f3008fc49d79b43da3fe9eebe491.png" data-caption="" data-size="normal" data-rawwidth="1386" data-rawheight="571" class="origin_image zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-94dc8ff6a1dd7f50eee8e230bd472f55_r.jpg" data-original-src="https://pic2.zhimg.com/v2-94dc8ff6a1dd7f50eee8e230bd472f55_b.jpg"/></noscript>
 
-</figure>
+![](img/07b2f3008fc49d79b43da3fe9eebe491.png)
+
+
 
 2\. 运行本Notebook
 
 3\. Notebook运行完成后，在本notebook子目录data/processed下会看到提取的视频关键帧图片文件
 
-<figure data-size="normal">
 
-<noscript><img src="img/9935e0984a278bba252f61f9d8295ebc.png" data-caption="" data-size="normal" data-rawwidth="1301" data-rawheight="532" class="origin_image zh-lightbox-thumb" data-original="https://pic3.zhimg.com/v2-5c6f11b2c241a966e8952dc6772d2e46_r.jpg" data-original-src="https://pic3.zhimg.com/v2-5c6f11b2c241a966e8952dc6772d2e46_b.jpg"/></noscript>
 
-</figure>
+![](img/9935e0984a278bba252f61f9d8295ebc.png)
+
+
 
 ## 5，第三方库
 
@@ -153,11 +153,11 @@ Jupyter Notebook这类交互式数据探索和分析工具代表了一股不容�
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple av #国内安装使用清华的源，速度快
 ```
 
-<figure data-size="normal">
 
-<noscript><img src="img/1ec3187b1395ee4f39a25b46ffc253c3.png" data-caption="" data-size="normal" data-rawwidth="979" data-rawheight="510" class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-a628089eff05a6d1d2535de5ffe60e38_r.jpg" data-original-src="https://pic1.zhimg.com/v2-a628089eff05a6d1d2535de5ffe60e38_b.jpg"/></noscript>
 
-</figure>
+![](img/1ec3187b1395ee4f39a25b46ffc253c3.png)
+
+
 
 ## 6，准备程序运行环境
 
